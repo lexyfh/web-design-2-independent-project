@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  font-family: Playfair Display, serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.banner {
+  background: #000 url("../images/pexels-martin-lopez-2157191.jpg") no-repeat center center;
+}
+
+.logo {
+  display: inline-block;
+  width: 2rem;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 2rem;
+}
