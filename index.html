@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Conspiracies in Media</title>
-  <link rel="icon" type="image/svg" href="images/favicon.svg">
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-  <ul class="slip-links">
+  <ul class="skip-links">
     <li>
       <a href="#nav">Skip to navigation</a>
     </li>
@@ -27,17 +27,22 @@
   <header role="banner">
     <nav id="nav" role="navigation">
       <span class="logo"><img src="images/conspiracy-logo.svg" alt="Conspiracies in Media logo"></span>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="celebrity-imposters.html">Celebrity Imposters</a></li>
         <li><a href="avril-lavigne.html">Avril Lavigne</a></li>
       </ul>
     </nav>
-    <h1>Conspiracies in Media</h1>
-    <img src="images/pexels-martin-lopez-2157191.jpg" alt="Image of woman in sitting at a table.">
+    <label for="nav-toggle" class="nav-toggle-label"></label>
   </header>
 
   <main role="main">
+    <div class="hero-banner">
+      <img src="images/pexels-martin-lopez-2157191.jpg" alt="Image of woman in sitting at a table.">
+      <h1>Conspiracies in Media</h1>
+    </div>
+
     <section class="about">
       <img src="images/tyler-comrie-factfake.jpg" alt="Image of word fact transitioning to the word fake.">
       <h2 id="about">About</h2>
