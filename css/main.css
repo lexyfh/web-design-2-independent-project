@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Playfair Display, serif;
+  font-family: "'Source Sans Pro'", sans-serif;
   line-height: 1.5;
 }
 
@@ -18,10 +18,6 @@ img {
   width: 100%;
 }
 
-.banner {
-  background: #000 url("../images/pexels-martin-lopez-2157191.jpg") no-repeat center center;
-}
-
 .logo {
   display: inline-block;
   width: 2rem;
@@ -30,4 +26,8 @@ img {
 .social-icon {
   display: inline-block;
   width: 2rem;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
 }
