@@ -184,6 +184,22 @@ nav a:hover {
   }
 }
 
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hero-banner img {
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+.hero-banner h1 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  align-self: end;
+}
+
 img {
   width: 100%;
 }
@@ -207,7 +223,8 @@ h1 {
 }
 
 .about {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .about h2 {
@@ -216,8 +233,7 @@ h1 {
 
 .celeb-imposters {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: #dd1f26;
 }
 
