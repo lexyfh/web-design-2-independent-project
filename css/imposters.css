@@ -164,6 +164,12 @@ ul {
   padding: 0;
 }
 
+.celeb-members {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .celeb-imposters-list {
   padding: 1em;
   max-width: 1200px;
@@ -184,7 +190,24 @@ ul {
   color: #fff;
 }
 
+.read-more-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #dd1f26;
+  padding: .5em;
+  text-transform: uppercase;
+}
+
 .celeb-pods-music {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pods-music {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
   padding: 1em;
   max-width: 1200px;
   margin: 0 auto;
@@ -199,6 +222,8 @@ footer ul {
   justify-content: center;
   margin-top: 0;
   padding-top: 1em;
+  justify-content: space-around;
+  margin: 0 8em;
 }
 
 .social-icon {
@@ -233,6 +258,10 @@ footer p {
 
   .logo {
     grid-column: 2 / 3;
+  }
+
+  nav a:hover {
+    color: #000;
   }
 
   nav {
@@ -273,5 +302,11 @@ footer p {
 
   nav a:hover::before {
     transform: scale(1,1);
+  }
+
+  .celeb-imposters-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
   }
 }

@@ -215,6 +215,7 @@ h1 {
   color: #fff;
   background-color: #dd1f26;
   padding: .5em;
+  text-transform: uppercase;
 }
 
 .contact {
@@ -230,10 +231,21 @@ h1 {
   color: #fff;
   background-color: #dd1f26;
   padding: .5em;
+  text-transform: uppercase;
 }
 
 ul {
   list-style: none;
+}
+
+.contact {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+form label {
+  color: #fff;
 }
 
 footer {
@@ -245,6 +257,8 @@ footer ul {
   justify-content: center;
   margin-top: 0;
   padding-top: 1em;
+  justify-content: space-around;
+  margin: 0 8em;
 }
 
 .social-icon {
@@ -269,6 +283,10 @@ footer p {
 
   .logo {
     grid-column: 2 / 3;
+  }
+
+  nav a:hover {
+    color: #000;
   }
 
   nav {
