@@ -47,6 +47,7 @@ body {
 header {
   background: #d3d4d9;
   text-align: center;
+
   /* position: fixed;
   z-index: 999; */
   position: relative;
@@ -82,7 +83,7 @@ header {
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -131,12 +132,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #dd1f26;
+  color: #770d13;
 }
 
 /* ~ looks for any preceeding sibling. */
+
 .nav-toggle:checked ~ nav {
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
 .nav-toggle:checked ~ nav a {
@@ -174,7 +176,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #dd1f26;
+  color: #770d13;
 }
 
 h2 {
@@ -191,7 +193,7 @@ h2 {
 }
 
 .about h2 {
-  color: #dd1f26;
+  color: #770d13;
 }
 
 .celeb-imposters {
@@ -225,13 +227,16 @@ div h3 {
 .celeb-imposters a {
   text-decoration: none;
   color: #fff;
-  background-color: #dd1f26;
+  background-color: #770d13;
   padding: .5em;
   text-transform: uppercase;
 }
 
 .contact {
   background-color: #000;
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .contact h2 {
@@ -241,19 +246,13 @@ div h3 {
 .contact a {
   text-decoration: none;
   color: #fff;
-  background-color: #dd1f26;
+  background-color: #770d13;
   padding: .5em;
   text-transform: uppercase;
 }
 
 ul {
   list-style: none;
-}
-
-.contact {
-  padding: 1em;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 form {
@@ -288,6 +287,7 @@ footer p {
 }
 
 @media screen and (min-width: 50em) {
+
   .nav-toggle-label {
     display: none;
   }
@@ -306,7 +306,7 @@ footer p {
   }
 
   nav {
-    all: unset; /*takes all styling off of the nav */
+    all: unset;
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
@@ -325,11 +325,11 @@ footer p {
   nav a {
     opacity: 1;
     position: relative;
-    color: #dd1f26;
+    color: #770d13;
   }
 
   nav a::before {
-    content: '';
+    content: "";
     display: block;
     height: 5px;
     background: black;
@@ -342,7 +342,7 @@ footer p {
   }
 
   nav a:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 
   .about {
@@ -355,4 +355,5 @@ footer p {
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
+
 }

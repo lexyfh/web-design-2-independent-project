@@ -74,7 +74,7 @@ header {
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -123,12 +123,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #dd1f26;
+  color: #770d13;
 }
 
 /* ~ looks for any preceeding sibling. */
+
 .nav-toggle:checked ~ nav {
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
 .nav-toggle:checked ~ nav a {
@@ -186,7 +187,7 @@ ul {
 }
 
 .about-celeb h2 {
-  color: #dd1f26;
+  color: #770d13;
 }
 
 .celeb-pods-music {
@@ -232,6 +233,7 @@ footer p {
 }
 
 @media screen and (min-width: 50em) {
+
   .nav-toggle-label {
     display: none;
   }
@@ -269,11 +271,11 @@ footer p {
   nav a {
     opacity: 1;
     position: relative;
-    color: #dd1f26;
+    color: #770d13;
   }
 
   nav a::before {
-    content: '';
+    content: "";
     display: block;
     height: 5px;
     background: black;
@@ -286,10 +288,12 @@ footer p {
   }
 
   nav a:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 
   .albums {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }
