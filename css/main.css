@@ -47,10 +47,10 @@ body {
 header {
   background: #d3d4d9;
   text-align: center;
-  position: fixed;
-  z-index: 999;
-  max-width: 1200px;
-  margin: 0 auto;
+  /* position: fixed;
+  z-index: 999; */
+  position: relative;
+  width: 100%;
 }
 
 .nav-toggle {
@@ -287,14 +287,14 @@ footer p {
   padding-bottom: 2em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 50em) {
   .nav-toggle-label {
     display: none;
   }
 
   header {
     display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    grid-template-columns: 1fr auto minmax(38em, 3fr) 1fr;
   }
 
   .logo {

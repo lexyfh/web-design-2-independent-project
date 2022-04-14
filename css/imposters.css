@@ -18,10 +18,11 @@ body {
 header {
   background: #d3d4d9;
   text-align: center;
-  position: fixed;
-  z-index: 999;
+  position: relative;
+  width: 100%;
+  /* z-index: 999;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .skip-links {
@@ -123,6 +124,16 @@ nav a {
 
 nav a:hover {
   color: #dd1f26;
+}
+
+/* ~ looks for any preceeding sibling. */
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
 }
 
 .hero-banner {
@@ -263,14 +274,14 @@ footer p {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 50em) {
   .nav-toggle-label {
     display: none;
   }
 
   header {
     display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    grid-template-columns: 1fr auto minmax(38em, 3fr) 1fr;
   }
 
   .logo {
