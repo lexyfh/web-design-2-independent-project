@@ -256,6 +256,10 @@ ul {
   margin: 0 auto;
 }
 
+form {
+  margin: 1em 0;
+}
+
 form label {
   color: #fff;
 }
