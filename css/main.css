@@ -356,4 +356,22 @@ footer p {
     gap: 1em;
   }
 
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
 }
