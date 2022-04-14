@@ -5,7 +5,7 @@
   <title>Avril Lavigne</title>
   <link rel="icon" type="image/png" href="images/favicon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/celeb.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -23,21 +23,23 @@
   </ul>
 
   <header role="banner">
+    <span class="logo"><img src="images/conspiracy-logo.svg" alt="Conspiracies in Media logo"></span>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav id="nav" role="navigation">
-      <span class="logo"><img src="images/conspiracy-logo.svg" alt="Conspiracies in Media logo"></span>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="celebrity-imposters.html">Celebrity Imposters</a></li>
         <li><a href="avril-lavigne.html">Avril Lavigne</a></li>
       </ul>
     </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
   </header>
+
   <main role="main">
-    <section class="banner">
+    <section class="hero-banner">
       <h1>Avril Lavigne</h1>
       <img src="images/avril-banner.jpg" alt="Photograph of Avril Lavigne showing off her hair.">
     </section>
-
 
     <section class="about-celeb">
       <h2 id="about-celeb">About</h2>
@@ -45,39 +47,41 @@
       </p>
     </section>
 
-    <section class="celeb-pods-music">
-      <h2>Music</h2>
-      <ul>
-        <li>
-          <a href="https://open.spotify.com/album/5pkQpJAHxy9BzwA7E1UWxF?si=i6cCnSmkRci9uqNKhn8axw" aria-label="Click here to listen to the Love Sux album on Spotify."><img src="images/avril-love-sux.jpg" alt=""></a>
-          <h3>Love Sux</h3>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/album/3FrkD0TTaXBuW19vuEhDGz?si=fXqG6HBDRuul14CQkgrBAg" aria-label="Click here to listen to the Head Above Water album on Spotify."><img src="images/avril-head-above-water.jpg" alt=""></a>
-          <h3>Head Above Water</h3>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/album/7qjA5gbagHWVbqKUgVt49l?si=PGHtuj-0RXuYPg7M8ijBlg" aria-label="Click here to listen to the Avril Lavigne album on Spotify."><img src="images/avril-self-titled.jpg" alt=""></a>
-          <h3>Avril Lavigne</h3>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/album/1COPJyU2PpM2Itcob3vhFF?si=Vr4OGVYqRZy16eyEfOxo1A" aria-label="Click here to listen to the Goodbye Lullaby album on Spotify."><img src="images/avril-goodbye-lullaby.jpg" alt=""></a>
-          <h3>Goodbye Lullaby</h3>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/album/6lqE05fiHWJVYYdMVJNj38?si=HisDD6elTE-4bqzr8NkiDA" aria-label="Click here to listen to the The Best Damn Thing album on Spotify."><img src="images/avril-tbdt.jpg" alt=""></a>
-          <h3>The Best Damn Thing</h3>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/album/7851Vsjv3apS52sXUik6iF?si=J6QKuEsZSOutv98Sb8ZBSA" aria-label="Click here to listen to the Under My Skin album on Spotify."><img src="images/avril-ums.jpg" alt=""></a>
-          <h3>Under My Skin</h3>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/album/3zXjR3y2dUWklKmmp6lEhy?si=gpAhbdg_SJ66Cen71KxNkg" aria-label="Click here to listen to the Let Go album on Spotify."><img src="images/avril-let-go.jpg" alt=""></a>
-          <h3>Let Go</h3>
-        </li>
-      </ul>
-    </section>
+    <div class="bg-100-black">
+      <section class="celeb-pods-music">
+        <h2>Music</h2>
+        <ul class="albums">
+          <li>
+            <a href="https://open.spotify.com/album/5pkQpJAHxy9BzwA7E1UWxF?si=i6cCnSmkRci9uqNKhn8axw" aria-label="Click here to listen to the Love Sux album on Spotify."><img src="images/avril-love-sux.jpg" alt=""></a>
+            <h3>Love Sux</h3>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/album/3FrkD0TTaXBuW19vuEhDGz?si=fXqG6HBDRuul14CQkgrBAg" aria-label="Click here to listen to the Head Above Water album on Spotify."><img src="images/avril-head-above-water.jpg" alt=""></a>
+            <h3>Head Above Water</h3>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/album/7qjA5gbagHWVbqKUgVt49l?si=PGHtuj-0RXuYPg7M8ijBlg" aria-label="Click here to listen to the Avril Lavigne album on Spotify."><img src="images/avril-self-titled.jpg" alt=""></a>
+            <h3>Avril Lavigne</h3>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/album/1COPJyU2PpM2Itcob3vhFF?si=Vr4OGVYqRZy16eyEfOxo1A" aria-label="Click here to listen to the Goodbye Lullaby album on Spotify."><img src="images/avril-goodbye-lullaby.jpg" alt=""></a>
+            <h3>Goodbye Lullaby</h3>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/album/6lqE05fiHWJVYYdMVJNj38?si=HisDD6elTE-4bqzr8NkiDA" aria-label="Click here to listen to the The Best Damn Thing album on Spotify."><img src="images/avril-tbdt.jpg" alt=""></a>
+            <h3>The Best Damn Thing</h3>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/album/7851Vsjv3apS52sXUik6iF?si=J6QKuEsZSOutv98Sb8ZBSA" aria-label="Click here to listen to the Under My Skin album on Spotify."><img src="images/avril-ums.jpg" alt=""></a>
+            <h3>Under My Skin</h3>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/album/3zXjR3y2dUWklKmmp6lEhy?si=gpAhbdg_SJ66Cen71KxNkg" aria-label="Click here to listen to the Let Go album on Spotify."><img src="images/avril-let-go.jpg" alt=""></a>
+            <h3>Let Go</h3>
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
 
   <footer role="contentinfo">
