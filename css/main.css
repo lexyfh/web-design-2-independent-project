@@ -177,6 +177,10 @@ h1 {
   color: #dd1f26;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr;
@@ -208,6 +212,14 @@ h1 {
 
 .celeb-imposters-list article {
   background-color: #fff;
+}
+
+article div {
+  padding: 1em;
+}
+
+div h3 {
+  margin-top: 0;
 }
 
 .celeb-imposters a {
@@ -257,13 +269,13 @@ footer ul {
   justify-content: center;
   margin-top: 0;
   padding-top: 1em;
-  justify-content: space-around;
   margin: 0 8em;
 }
 
 .social-icon {
   display: inline-block;
   width: 2rem;
+  margin: 0 1em;
 }
 
 footer p {

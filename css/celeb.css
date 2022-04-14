@@ -159,6 +159,10 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -202,13 +206,12 @@ footer ul {
   justify-content: center;
   margin-top: 0;
   padding-top: 1em;
-  justify-content: space-around;
-  margin: 0 8em;
 }
 
 .social-icon {
   display: inline-block;
   width: 2rem;
+  margin: 0 1em;
 }
 
 footer p {
