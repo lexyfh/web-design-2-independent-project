@@ -169,11 +169,6 @@ img {
   width: 2rem;
 }
 
-.social-icon {
-  display: inline-block;
-  width: 2rem;
-}
-
 h1, h2, h3 {
   font-family: "Playfair Display", serif;
 }
@@ -241,13 +236,25 @@ ul {
   list-style: none;
 }
 
+footer {
+  background-color: #d3d4d9;
+}
+
 footer ul {
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 2rem;
 }
 
 footer p {
   text-align: center;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 800px) {

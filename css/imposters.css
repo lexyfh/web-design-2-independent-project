@@ -20,7 +20,28 @@ header {
   text-align: center;
   position: fixed;
   z-index: 999;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.bg-100-black {
   width: 100%;
+  background-color: #000;
 }
 
 .nav-toggle {
@@ -92,7 +113,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: #000;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -101,7 +122,93 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: #dd1f26;
+}
+
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #000;
+}
+
+.hero-banner img {
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+.hero-banner h1 {
+  grid-column: 1/-1;
+  grid-row: -2;
+  align-self: end;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  width: 2rem;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.celeb-imposters-list {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-celeb {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-celeb h2 {
+  color: #dd1f26;
+}
+
+.celeb-members {
+  color: #fff;
+}
+
+.celeb-pods-music {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #d3d4d9;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 2rem;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 /* ~ looks for any preceeding sibling. */

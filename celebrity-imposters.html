@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Celebrity Imposters</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/imposters.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -25,6 +26,8 @@
   </ul>
 
   <header role="banner">
+    <span class="logo"><img src="images/conspiracy-logo.svg" alt="Conspiracies in Media logo"></span>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav id="nav" role="navigation">
       <span class="logo"><img src="images/conspiracy-logo.svg" alt="Conspiracies in Media logo"></span>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -34,14 +37,16 @@
         <li><a href="avril-lavigne.html">Avril Lavigne</a></li>
       </ul>
     </nav>
-    <label for="nav-toggle" class="nav-toggle-label"></label>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
   </header>
 
   <main role="main">
-    <section class="banner">
-      <h1>Celebrity Imposters</h1>
+    <div class="hero-banner">
       <img src="images/avril-banner.jpg" alt="Photograph of Avril Lavigne showing off her hair.">
-    </section>
+      <h1>Celebrity Imposters</h1>
+    </div>
 
     <section class="about-celeb">
       <h2 id="about-celeb">About</h2>
@@ -49,19 +54,21 @@
       </p>
     </section>
 
-    <section class="celeb-members">
-      <h2 id="celeb-members">Members</h2>
-      <ul>
-        <li>
-          <a href="avril-lavigne.html"><img src="images/avril-preform-800.jpg" alt="Photograph of a young Avril Lavigne preforming."></a>
-          <h3>Avril Lavigne</h3>
-        </li>
-        <li>
-          <a href="paul-mccartney.html"><img src="images/paul-mccartney-interview-800.jpg" alt="Photograph of a young Paul McCartney."></a>
-          <h3>Paul McCartney</h3>
-        </li>
-      </ul>
-    </section>
+    <div class="bg-100-black">
+      <section class="celeb-members">
+        <h2 id="celeb-members">Members</h2>
+        <div class="celeb-imposters-list">
+          <article>
+            <a href="avril-lavigne.html"><img src="images/avril-preform-800.jpg" alt="Photograph of a young Avril Lavigne preforming."></a>
+            <h3>Avril Lavigne</h3>
+          </article>
+          <article>
+            <a href="paul-mccartney.html"><img src="images/paul-mccartney-interview-800.jpg" alt="Photograph of a young Paul McCartney."></a>
+            <h3>Paul McCartney</h3>
+          </article>
+        </div>
+      </section>
+    </div>
 
     <section class="celeb-pods-music">
       <h2 id="celeb-pods-music">Podcasts & Music</h2>
@@ -70,11 +77,6 @@
           <a href="https://open.spotify.com/episode/4aFxVLOej8wPbu8Bg4wpDC?si=9e44a46644c545db"><img src="images/obsessed-podcast.jpg" alt="Image of podcast cover."></a>
           <h3>Obsessed: ...Avril Lavigne Conspiracy</h3>
           <p>Tune into a Spotify Original podcast discussing the Avril Lavigne Conspiracy.</p>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/episode/3ljzjJReK2Gg4ZSUb8fhtF?si=5d9cc69fae564628"><img src="images/unfiltered-podcast.jpg" alt="Image of podcast cover."></a>
-          <h3> Zane and Heath: Unfiltered: The Craziest Conspiracy Theories</h3>
-          <p>Listen to some of YouTube's comedians discuss celebrity conspiracy theories.</p>
         </li>
         <li>
           <a href="https://open.spotify.com/episode/3J2bL14xBXbEMLSF4gF5hZ?si=d4e347ce04ec4747"><img src="images/tcg-podcast.jpg" alt="Image of podcast cover."></a>
