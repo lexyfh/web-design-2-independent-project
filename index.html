@@ -24,19 +24,22 @@
     </li>
   </ul>
 
-  <header role="banner">
-    <nav id="nav" role="navigation">
+  <div class="bg-100-dark-grey">
+    <header role="banner">
       <span class="logo"><img src="images/conspiracy-logo.svg" alt="Conspiracies in Media logo"></span>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="celebrity-imposters.html">Celebrity Imposters</a></li>
-        <li><a href="avril-lavigne.html">Avril Lavigne</a></li>
-      </ul>
-    </nav>
-    <label for="nav-toggle" class="nav-toggle-label"></label>
-    <span></span>
-  </header>
+      <nav id="nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="celebrity-imposters.html">Celebrity Imposters</a></li>
+          <li><a href="avril-lavigne.html">Avril Lavigne</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+  </div>
 
   <main role="main">
     <div class="hero-banner">
@@ -44,23 +47,34 @@
       <h1>Conspiracies in Media</h1>
     </div>
 
-    <section class="about">
-      <img src="images/tyler-comrie-factfake.jpg" alt="Image of word fact transitioning to the word fake.">
-      <h2 id="about">About</h2>
-      <p>Ever wonder about the media’s most discussed mysteries? Some of the most well known celebrities are associated with very prominent conspiracy theories in the media. From the bizarre 27 Club urban legend to unexplained celebrity imposters, there are nearly endless unexplained stories that have gained attention and interest for years. Wanna learn more about these interesting mysteries? Scroll down and find out about the 27 Club and Celebrity Imposters and the members involved!</p>
-    </section>
+    <div class="bg-100-white">
+      <section class="about">
+        <img src="images/tyler-comrie-factfake.jpg" alt="Image of word fact transitioning to the word fake.">
+        <div class="about-text">
+          <h2 id="about">About</h2>
+          <p>Ever wonder about the media’s most discussed mysteries? Some of the most well known celebrities are associated with very prominent conspiracy theories in the media. From the bizarre 27 Club urban legend to unexplained celebrity imposters, there are nearly endless unexplained stories that have gained attention and interest for years. Wanna learn more about these interesting mysteries? Scroll down and find out about the 27 Club and Celebrity Imposters and the members involved!</p>
+        </div>
+      </section>
+    </div>
 
-    <section class="celeb-imposters">
-      <h2 id="celebrity-imposters">Celebrity Imposters</h2>
-      <a href="celebrity-imposters.html" aria-label="Click here to read more about Celebrity Imposters.">Read More</a>
-      <ul>
-        <li><img src="images/avril-preform-800.jpg" alt="Photo of Avril Lavigne preforming."></li>
-        <li>
-          <p>Avril Lavigne, a pop-punk singer.</p>
-        </li>
-        <li><img src="images/paul-mccartney-interview-800.jpg" alt="Portrait of young Paul McCartney."></li>
-      </ul>
-    </section>
+    <div class="bg-100-black">
+      <section class="celeb-imposters">
+        <h2 id="celebrity-imposters">Celebrity Imposters</h2>
+        <a href="celebrity-imposters.html" aria-label="Click here to read more about Celebrity Imposters.">Read More</a>
+        <div class="celeb-imposters-list">
+          <article>
+            <img src="images/avril-preform-800.jpg" alt="Photo of Avril Lavigne preforming.">
+            <h3>Avril Lavigne</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo faucibus ipsum, viverra vehicula purus tincidunt id. Integer varius ipsum sapien. Sed feugiat luctus pharetra. Morbi sed quam nec neque accumsan elementum. Duis urna justo, dictum et ultricies vitae, finibus eget urna. Fusce porta eget turpis sed tempor. In hac habitasse platea dictumst. Fusce elementum lorem eget nisi efficitur, sit amet condimentum ligula euismod.</p>
+          </article>
+          <article>
+            <img src="images/paul-mccartney-interview-800.jpg" alt="Portrait of young Paul McCartney.">
+            <h3>Paul McCartney</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo faucibus ipsum, viverra vehicula purus tincidunt id. Integer varius ipsum sapien. Sed feugiat luctus pharetra. Morbi sed quam nec neque accumsan elementum. Duis urna justo, dictum et ultricies vitae, finibus eget urna. Fusce porta eget turpis sed tempor. In hac habitasse platea dictumst. Fusce elementum lorem eget nisi efficitur, sit amet condimentum ligula euismod.</p>
+          </article>
+        </div>
+      </section>
+    </div>
 
     <section class="contact">
       <h2 id="contact">Contact Us</h2>
