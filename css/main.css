@@ -177,6 +177,7 @@ h1, h2, h3 {
 
 h1 {
   color: #770d13;
+  margin-left: .5em;
 }
 
 h2 {
@@ -194,12 +195,13 @@ h2 {
 
 .about h2 {
   color: #770d13;
+  margin: .5em;
 }
 
 .celeb-imposters {
   padding: 1em;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: .5em;
 }
 
 .celeb-imposters h2 {

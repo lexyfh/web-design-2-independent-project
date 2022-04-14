@@ -169,6 +169,7 @@ h1, h2, h3 {
 
 h1 {
   color: #fff;
+  margin-left: .5em;
 }
 
 h2 {
@@ -196,6 +197,7 @@ ul {
   padding: 1em;
   max-width: 1200px;
   margin: 0 auto;
+  margin: .5em;
 }
 
 .about-celeb h2 {
@@ -204,6 +206,7 @@ ul {
 
 .celeb-members {
   color: #fff;
+  margin: .5em;
 }
 
 .read-more-button {
