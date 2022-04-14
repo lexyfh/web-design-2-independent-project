@@ -86,7 +86,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
+  outline: 3px solid #000;
 }
 
 nav {
@@ -238,7 +238,7 @@ footer ul {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .social-icon {
@@ -250,6 +250,7 @@ footer ul {
 footer p {
   text-align: center;
   margin-bottom: 0;
+  padding-bottom: 2em;
 }
 
 /* ~ looks for any preceeding sibling. */
