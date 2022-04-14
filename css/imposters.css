@@ -222,6 +222,14 @@ article h3 {
   margin: 0 auto;
 }
 
+.pods-music h3 {
+  margin: 0;
+}
+
+.pods-music p {
+  margin-top: .5em;
+}
+
 footer {
   background-color: #d3d4d9;
 }
