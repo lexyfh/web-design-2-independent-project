@@ -308,7 +308,7 @@ footer p {
   }
 
   nav {
-    all: unset;
+    /* all: unset; */
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
